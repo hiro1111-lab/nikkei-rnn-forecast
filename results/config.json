@@ -1,0 +1,20 @@
+{
+  "csv_path": "data/nikkei_stock_average_daily_jp.csv",
+  "column": "終値",
+  "encoding": "shift_jis",
+  "n_steps": 50,
+  "train_ratio": 0.8,
+  "models": [
+    "SimpleRNN",
+    "LSTM",
+    "GRU"
+  ],
+  "n_units": 20,
+  "epochs": 50,
+  "batch_size": 32,
+  "learning_rate": 0.01,
+  "val_ratio": 0.1,
+  "seed": 42,
+  "results_dir": "results",
+  "extra": {}
+}
